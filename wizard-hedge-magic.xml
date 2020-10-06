@@ -103,14 +103,14 @@
 		</description>
 	</element>
 	<element name="2 levelled spells" type="Archetype Feature" source="Hedge Mage" id="ID_HEDGE_MAGIC_SPELLS" >
-        <supports>Spell specialization</supports>
+        <supports>Spell specialisation</supports>
         <description>
             <p>Choose two levelled spells</p>
         </description>
 	<select type="Spell" name="Spellbook (Wizard)" supports=", $(spellcasting:slots)"  number="2" spellcasting="Wizard" />	
     </element>
 	<element name="1 levelled spell and 2 cantrips" type="Archetype Feature" source="Hedge Mage" id="ID_HEDGE_MAGIC_CANTRIPS" >
-        <supports>Spell specialization</supports>
+        <supports>Spell specialisation</supports>
         <description>
             <p>Choose one levelled spell and 2 cantrips</p>
         </description>
