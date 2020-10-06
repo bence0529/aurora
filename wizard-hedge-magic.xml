@@ -59,7 +59,7 @@
 			<description>Cantrips learned in this way count as wizard cantrips for you.</description>
 		</sheet>
 		<rules>
-			<select type="Spell" name="Spell, Scholar of Fundaments" supports="0" spellcasting="Wizard" number="3" />
+			<select type="Spell" name="Spell, Scholar of Fundaments" supports="0" spellcasting="Wizard" level="2" number="3" />
 		</rules>
 	</element>
 	<element name="Big on the Basics" type="Archetype Feature" source="Reddit" id="ID_HEDGE_MAGIC_BIG_ON_THE_BASICS">
@@ -81,12 +81,6 @@
 				<li>The cantrip doesn't need any verbal, somatic or material components.</li>
 			</ul>
 		</description>
-		<sheet>
-			<description>You can attack twice, instead of once, whenever you take the Attack action on your turn.</description>
-		</sheet>
-		<rules>
-			<stat name="extra attack:count" value="2" level="6" bonus="extra attack" />
-		</rules>
 	</element>
 	<element name="Swift Cantrip" type="Archetype Feature" source="Reddit" id="ID_HEDGE_MAGIC_SWIFT_CANTRIP">
 		<description>
