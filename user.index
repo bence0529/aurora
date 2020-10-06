@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>User</name>
+		<description>Custom user content.</description>
+		<update version="0.1">
+			<file name="user.index"/>
+		</update>
+	</info>
+	<files>
+		<file name="wizard-hedge-magic.xml" url="https://github.com/bence0529/aurora/blob/main/wizard-hedge-magic.xml"/>
+	</files>
+</index>
