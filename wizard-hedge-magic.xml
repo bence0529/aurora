@@ -101,6 +101,9 @@
         <description>
             <p>Choose two levelled spells</p>
         </description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
 		<rules>
 			<select type="Spell" name="Spellbook (Wizard)" supports="Wizard, $(spellcasting:slots)"  number="2" spellcasting="Wizard" />	
 		</rules>
@@ -110,9 +113,12 @@
         <description>
             <p>Choose one levelled spell and 2 cantrips</p>
         </description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
 		<rules>
 			<select type="Spell" name="Spellbook (Wizard)" supports="Wizard, $(spellcasting:slots)"  number="1" spellcasting="Wizard" />	
-			<select type="Spell" name="Spellbook (Wizard)" supports="0"  number="2" spellcasting="Wizard" />
+			<select type="Spell" name="Cantrip" supports="0"  number="2" spellcasting="Wizard" />
 		</rules>
     </element>
 </elements>
