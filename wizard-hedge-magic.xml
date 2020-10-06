@@ -29,25 +29,25 @@
 			<grant type="Archetype Feature" id="ID_HEDGE_MAGIC_SWIFT_CANTRIP" level="10" />
 			<grant type="Archetype Feature" id="ID_HEDGE_MAGIC_MASTER_OF_FUNDAMENTS" level="14" />
 
-		<select type="Archetype Feature" name="2nd Level Spells" supports="Spell specialisation" level="2"/>
-		<select type="Archetype Feature" name="3rd Level Spells" supports="Spell specialisation" level="3"/>
-		<select type="Archetype Feature" name="4th Level Spells" supports="Spell specialisation" level="4"/>
-		<select type="Archetype Feature" name="5th Level Spells" supports="Spell specialisation" level="5"/>
-		<select type="Archetype Feature" name="6th Level Spells" supports="Spell specialisation" level="6"/>
-		<select type="Archetype Feature" name="7th Level Spells" supports="Spell specialisation" level="7"/>
-		<select type="Archetype Feature" name="8th Level Spells" supports="Spell specialisation" level="8"/>
-		<select type="Archetype Feature" name="9th Level Spells" supports="Spell specialisation" level="9"/>
-		<select type="Archetype Feature" name="10th Level Spells" supports="Spell specialisation" level="10"/>
-		<select type="Archetype Feature" name="11th Level Spells" supports="Spell specialisation" level="11"/>
-		<select type="Archetype Feature" name="12st Level Spells" supports="Spell specialisation" level="12"/>
-		<select type="Archetype Feature" name="13th Level Spells" supports="Spell specialisation" level="13"/>
-		<select type="Archetype Feature" name="14th Level Spells" supports="Spell specialisation" level="14"/>
-		<select type="Archetype Feature" name="15th Level Spells" supports="Spell specialisation" level="15"/>
-		<select type="Archetype Feature" name="16th Level Spells" supports="Spell specialisation" level="16"/>
-		<select type="Archetype Feature" name="17th Level Spells" supports="Spell specialisation" level="17"/>
-		<select type="Archetype Feature" name="18th Level Spells" supports="Spell specialisation" level="18"/>
-		<select type="Archetype Feature" name="19th Level Spells" supports="Spell specialisation" level="19"/>
-		<select type="Archetype Feature" name="20th Level Spells" supports="Spell specialisation" level="20"/>
+		<select type="Archetype Feature" name="2nd Level Spells" supports="Spell specialisation" id="ID_HEDGE_MAGIC_2" level="2"/>
+		<select type="Archetype Feature" name="3rd Level Spells" supports="Spell specialisation" id="ID_HEDGE_MAGIC_3" level="3"/>
+		<select type="Archetype Feature" name="4th Level Spells" supports="Spell specialisation" id="ID_HEDGE_MAGIC_4" level="4"/>
+		<select type="Archetype Feature" name="5th Level Spells" supports="Spell specialisation" id="ID_HEDGE_MAGIC_5" level="5"/>
+		<select type="Archetype Feature" name="6th Level Spells" supports="Spell specialisation" id="ID_HEDGE_MAGIC_6" level="6"/>
+		<select type="Archetype Feature" name="7th Level Spells" supports="Spell specialisation" id="ID_HEDGE_MAGIC_7" level="7"/>
+		<select type="Archetype Feature" name="8th Level Spells" supports="Spell specialisation" id="ID_HEDGE_MAGIC_8" level="8"/>
+		<select type="Archetype Feature" name="9th Level Spells" supports="Spell specialisation" id="ID_HEDGE_MAGIC_9" level="9"/>
+		<select type="Archetype Feature" name="10th Level Spells" supports="Spell specialisation" id="ID_HEDGE_MAGIC_10" level="10"/>
+		<select type="Archetype Feature" name="11th Level Spells" supports="Spell specialisation" id="ID_HEDGE_MAGIC_11" level="11"/>
+		<select type="Archetype Feature" name="12st Level Spells" supports="Spell specialisation" id="ID_HEDGE_MAGIC_12" level="12"/>
+		<select type="Archetype Feature" name="13th Level Spells" supports="Spell specialisation" id="ID_HEDGE_MAGIC_13" level="13"/>
+		<select type="Archetype Feature" name="14th Level Spells" supports="Spell specialisation" id="ID_HEDGE_MAGIC_14" level="14"/>
+		<select type="Archetype Feature" name="15th Level Spells" supports="Spell specialisation" id="ID_HEDGE_MAGIC_15" level="15"/>
+		<select type="Archetype Feature" name="16th Level Spells" supports="Spell specialisation" id="ID_HEDGE_MAGIC_16" level="16"/>
+		<select type="Archetype Feature" name="17th Level Spells" supports="Spell specialisation" id="ID_HEDGE_MAGIC_17" level="17"/>
+		<select type="Archetype Feature" name="18th Level Spells" supports="Spell specialisation" id="ID_HEDGE_MAGIC_18" level="18"/>
+		<select type="Archetype Feature" name="19th Level Spells" supports="Spell specialisation" id="ID_HEDGE_MAGIC_19" level="19"/>
+		<select type="Archetype Feature" name="20th Level Spells" supports="Spell specialisation" id="ID_HEDGE_MAGIC_20" level="20"/>
 		</rules>
 	</element>
 	<element name="Scholar of Fundaments" type="Archetype Feature" source="Reddit" id="ID_HEDGE_MAGIC_SCHOLAR_OF_FUNDAMENTS">
@@ -107,14 +107,14 @@
         <description>
             <p>Choose two levelled spells</p>
         </description>
-	<select type="Spell" name="Spellbook (Wizard)" supports=", $(spellcasting:slots)"  number="2" spellcasting="Wizard" />	
+	<select type="Spell" name="Spellbook (Wizard)" supports="Wizard, $(spellcasting:slots)"  number="2" spellcasting="Wizard" />	
     </element>
 	<element name="1 levelled spell and 2 cantrips" type="Archetype Feature" source="Hedge Mage" id="ID_HEDGE_MAGIC_CANTRIPS" >
         <supports>Spell specialisation</supports>
         <description>
             <p>Choose one levelled spell and 2 cantrips</p>
         </description>
-	<select type="Spell" name="Spellbook (Wizard)" supports=", $(spellcasting:slots)"  number="1" spellcasting="Wizard" />	
-	<select type="Spell" name="Spellbook (Wizard)" supports=", 0"  number="2" spellcasting="Wizard" />
+	<select type="Spell" name="Spellbook (Wizard)" supports="Wizard, $(spellcasting:slots)"  number="1" spellcasting="Wizard" />	
+	<select type="Spell" name="Spellbook (Wizard)" supports="0"  number="2" spellcasting="Wizard" />
     </element>
 </elements>
