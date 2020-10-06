@@ -101,14 +101,18 @@
         <description>
             <p>Choose two levelled spells</p>
         </description>
-	<select type="Spell" name="Spellbook (Wizard)" supports="Wizard, $(spellcasting:slots)"  number="2" spellcasting="Wizard" />	
+	<rule/>
+		<select type="Spell" name="Spellbook (Wizard)" supports="Wizard, $(spellcasting:slots)"  number="2" spellcasting="Wizard" />	
+	<rule/>
     </element>
 	<element name="1 levelled spell and 2 cantrips" type="Archetype Feature" source="Hedge Mage" id="ID_HEDGE_MAGIC_CANTRIPS" >
         <supports>Spell specialisation</supports>
         <description>
             <p>Choose one levelled spell and 2 cantrips</p>
         </description>
-	<select type="Spell" name="Spellbook (Wizard)" supports="Wizard, $(spellcasting:slots)"  number="1" spellcasting="Wizard" />	
-	<select type="Spell" name="Spellbook (Wizard)" supports="0"  number="2" spellcasting="Wizard" />
+	<rule>
+		<select type="Spell" name="Spellbook (Wizard)" supports="Wizard, $(spellcasting:slots)"  number="1" spellcasting="Wizard" />	
+		<select type="Spell" name="Spellbook (Wizard)" supports="0"  number="2" spellcasting="Wizard" />
+	<rule/>
     </element>
 </elements>
