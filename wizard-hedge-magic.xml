@@ -5,6 +5,7 @@
 		<description>Hedge Magic created by Surrealistik.</description>
 		<author url="https://www.reddit.com/user/surrealistik/">u/Surrealistik</author>
 		<update version="0.1.4">
+			<file name="wizard-hedge-magic.xml" url="https://github.com/bence0529/aurora/blob/main/wizard-hedge-magic.xml"/>
 		</update>
 	</info>
 
