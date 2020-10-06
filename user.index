@@ -4,7 +4,7 @@
 		<name>User</name>
 		<description>Custom user content.</description>
 		<update version="0.1">
-			<file name="user.index"/>
+			<file name="user.index" url="https://github.com/bence0529/aurora/blob/main/user.index"/>
 		</update>
 	</info>
 	<files>
