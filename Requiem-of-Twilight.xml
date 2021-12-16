@@ -33,20 +33,6 @@ At 6th level, your graft gains a +1 bonus to melee attacks and damage rolls. Thi
 			<grant type="Weapon" id="ID_USER_GRAFT_UMBRAL" />
 		</rules>
 	</element>
-	<element name="Umbral Arm" type="Weapon" source="User" id="ID_USER_GRAFT_UMBRAL">
-		<description>
-			<html>&lt;p&gt;Spellcasting Focus; Simple weapon 1d8+Int&lt;/p&gt;</html>
-		</description>
-		<setters>
-			<set name="category">Weapons</set>
-			<set name="cost" currency="gp">25</set>
-			<set name="weight" lb="2">2 lb.</set>
-			<set name="slot">onehand</set>
-			<set name="damage" type="necrotic">1d8</set>
-			<set name="proficiency" />
-		</setters>
-		<sheet display="false" />
-	</element>
 	<element name="Fearful Touch" type="Archetype Feature" source="User" id="ID_USER_ARCHETYPE_FEATURE_REQUIEM_OF_TWILIGHT_FEARFUL_TOUCH">
 		<description>
 			<html>&lt;p&gt;Starting at 3rd level, when you hit a creature with a melee spell attack from your undead graft, you can instill irrational terror.&lt;/p&gt;
