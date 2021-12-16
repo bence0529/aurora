@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<element name="User" type="Source" source="Core" id="ID_TPM_SOURCE_USER">
+		<setters>
+			<set name="abbreviation">USE</set>
+			<set name="image" />
+			<set name="url" />
+			<set name="homebrew">true</set>
+		</setters>
+	</element>
+	<element name="The Pale Master" type="Class" source="User" id="ID_USER_TPM">
+		<description>
+			<html>&lt;p class="indent"&gt;
+Kneeling Down Beside the Skeletal Remains Left
+Behind In The
+Aftermath of Conflict, the Elderly
+Human Begins To Cast An
+Incantation. Pale Master Kneeling down beside the skeletal remains left behind in the aftermath of conflict, the elderly human begins to cast an incantation. The man's irises lose their color and his pupils constrict for a moment. To the horror of his companions, the mindless undead they fought to hard so defeat just moments ago rise up to walk among the living once again, but this time as an army of the dead under their comrade's control.&lt;/p&gt;
+&lt;p class="indent"&gt;Stretching out a mummified hand wrapped in funeral dressings, the young gnome touches a corpse long since perished. Spectral bandages begin to form around the lifeless body until it is completely covered. As the process is completed, necrotic energies flow through the cadaver, causing it to twitch and contort its form as it rises to its feet; the foul mimicry of life coursing through its now sentient form.&lt;/p&gt;
+&lt;p class="indent"&gt;A frenzied undead creature lumbers toward a stoic halfdrow.&lt;/p&gt;
+&lt;p class="indent"&gt;As the zombie is about to tear into her, she calmly touches its forehead with her own skeletal appendage. The creature turns its rage-fueled eyes back towards the others of its pack, compelled to protect the one it previously sought to feed upon.&lt;/p&gt;
+&lt;p class="indent"&gt;The Pale Master is a magic user obsessed with the study of life and death and with harnessing this newfound knowledge to raise an unending cohort of the dead to do their bidding.&lt;/p&gt;
+
+&lt;p&gt;&lt;h3&gt;Pre-eminence in Necromancy&lt;/h3&gt;
+Pale Masters are arcane casters who draw upon necromantic
+lore that provides a macabre power all its own. Some aspire
+to
+live forever, effectively becoming immortal. Others are
+fascinated
+with death and the fate of souls that are unable to
+pass into the
+afterlife. Some pale masters seek to gain power
+through raising
+an army of once fallen soldiers to continue
+the battle once more.
+With this obsession to learn every shred of obscure
+knowledge surrounding the necromantic arts, a sacrifice
+happens as the pale master tends to become uninterested in
+other types of magic, except for a select few spells they feel
+can
+help them achieve their goals faster. As a result, pale
+masters
+have a smaller subset of arcane spells to draw upon
+when
+compared to their other arcane brethren. This lack of
+breadth is
+offset by the unique abilities they gain while
+studying their
+undead subjects.&lt;/p&gt;
+
+&lt;p class="indent"&gt;The secrets of necromancy not only allow them to be successful in this quest, but also give them insight into how they can bolster their own form with gifts from the undead, permanently granting them powers of undeath.&lt;/p&gt;
+
+&lt;p&gt;&lt;h3&gt;Seizing Undead Secrets &lt;/h3&gt;
+Most practitioners of the necromantic arts share one overwhelming commonality; a lifelong search for the secrets of undeath. This search becomes an obsession for the pale master, who forsakes any sort of social life to study endlessly and try to quench their endless thirst for mastery of the dark arts. Those who truly wish to embrace these arts can choose a dangerous way to connect with the undead, completing an ancient and forbidden ritual hidden in the darkest tomes that mortal eyes may happen upon.&lt;/p&gt;
+&lt;p&gt;&lt;h3&gt;Obsession with the Dark Arts &lt;/h3&gt;
+Most practitioners of the necromantic arts share one overwhelming commonality; a lifelong search for the secrets of undeath. This search becomes an obsession for the Pale Master, who forsake any sort of social life to study endlessly and try to quench their endless thirst for mastery of the dark arts. Those who truly wish to embrace these arts can choose a dangerous way to connect with the undead, completing an ancient and forbidden ritual hidden in the darkest tomes that mortal eyes may happen upon. They must leave the dark rooms of their studies, conquer real foes, and attain the experience necessary to truly understand a mastery of Necromancy. With that mastery, they can construct undead servants to serve along side them.&lt;/p&gt;
+&lt;p&gt;&lt;h3&gt;Masters of Necrotic Magic &lt;/h3&gt;
+Pale Masters are arcane casters who draw on necromantic lore that provides a macabre power all its own. Some aspire to live forever, effectively becoming immortal. Others are fascinated with death and what happens to souls that are unable to pass into the afterlife. Some pale masters seek to gain power through raising an army of once fallen soldiers to continue the battle once more. With this obsession to learn everything there is to know about the necromantic arts, a sacrifice happens as the pale master becomes uninterested in other types of magic, except for a select few spells they feel can help them reach their goals faster. As a result, pale masters have a very small subset of arcane spells to draw upon. This lack of breadth is offset by the unique abilities they gain while studying their undead subjects.&lt;/p&gt;
+
+&lt;p&gt;&lt;h3&gt;Creating a Pale Master &lt;/h3&gt;
+Creating a pale master character benefits from a backstory involving an encounter with an undead creature. How did your character first come into contact with the undead? Why did you become fascinated with them? Why have you devoted large amounts of time to studying them?&lt;/p&gt;
+&lt;p class="indent"&gt;What then drew you forth from this life of study? Do you want to find a specific undead creature? Maybe you want to gain a better understanding of necromantic magic? Have you received word of a sealed crypt not yet plundered? Perhaps you seek immortality and learning about the undead will help you uncover the answer to this secret.&lt;/p&gt;
+
+
+&lt;h5&gt;QUICK BUILD&lt;/h5&gt;
+&lt;p&gt;You can make a pale master quickly by following these suggestions. First, Intelligence should be your highest ability score, followed by Constitution. Second, choose the sage background. Third, choose the &lt;i&gt;blood siphon&lt;/i&gt;, &lt;i&gt;corruption&lt;/i&gt;, and &lt;i&gt;spare the dying&lt;/i&gt; cantrips, along with the following 1st level spells from your grimoire: &lt;i&gt;death’s grasp&lt;/i&gt;, &lt;i&gt;inflict wounds&lt;/i&gt;, and &lt;i&gt;rot&lt;/i&gt;.&lt;/p&gt;
+&lt;h3&gt;CLASS FEATURES&lt;/h3&gt;
+&lt;p&gt;As a Pale Master, you gain the following class features.&lt;/p&gt;
+&lt;h5&gt;HIT POINTS&lt;/h5&gt;
+&lt;ul class="unstyled"&gt;
+&lt;li&gt;&lt;strong&gt;Hit Dice:&lt;/strong&gt; 1d8 per Pale Master level&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hit Points at 1st Level:&lt;/strong&gt; 8 + your Constitution modifier&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hit Points at Higher Levels:&lt;/strong&gt; 1d8 (or 5) + your Constitution modifier per Pale Master level after 1st&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5&gt;PROFICIENCIES&lt;/h5&gt;
+&lt;ul class="unstyled mb"&gt;
+&lt;li&gt;&lt;strong&gt;Armor:&lt;/strong&gt; None&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Weapons:&lt;/strong&gt; Daggers, light hammers, sickles, quarterstaffs&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tools:&lt;/strong&gt; None&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="unstyled"&gt;
+&lt;li&gt;&lt;strong&gt;Saving Throws:&lt;/strong&gt; Constitution, Intelligence&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Skills:&lt;/strong&gt; Choose two from Arcana, Deception, History, Intimidation, Medicine, and Religion&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5&gt;EQUIPMENT&lt;/h5&gt;
+&lt;p&gt;You start with the following equipment, in addition to the equipment granted by your background:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;(a) a quarterstaff or (b) a dagger&lt;/li&gt;
+&lt;li&gt;(a) a component pouch or (b) an arcane focus&lt;/li&gt;
+&lt;li&gt;(a) a scholar’s pack or (b) an priest's pack&lt;/li&gt;
+&lt;li&gt;A grimoire&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 class="caption"&gt;THE &lt;/h5&gt;
+&lt;table class="class-features"&gt;
+&lt;thead&gt;
+&lt;tr&gt;&lt;td class="col-5"&gt;Level&lt;/td&gt;&lt;td class="left"&gt;Features&lt;/td&gt;&lt;td class="col-10"&gt;Cantrips Known&lt;/td&gt;&lt;td&gt;1st&lt;/td&gt;&lt;td&gt;2nd&lt;/td&gt;&lt;td&gt;3rd&lt;/td&gt;&lt;td&gt;4th&lt;/td&gt;&lt;td&gt;5th&lt;/td&gt;&lt;td&gt;6th&lt;/td&gt;&lt;td&gt;7th&lt;/td&gt;&lt;td&gt;8th&lt;/td&gt;&lt;td&gt;9th&lt;/td&gt;&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tr&gt;&lt;td&gt; 1st&lt;/td&gt;&lt;td class="left"&gt;Bulwark of the Undead, Spellcasting, Requiem of Souls,
+Reaper of Souls&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; 2nd&lt;/td&gt;&lt;td class="left"&gt;Siphon Life, Death's Whisper&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; 3rd&lt;/td&gt;&lt;td class="left"&gt;Requiem Feature&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; 4th&lt;/td&gt;&lt;td class="left"&gt;Ability Score Improvement&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; 5th&lt;/td&gt;&lt;td class="left"&gt;—&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; 6th&lt;/td&gt;&lt;td class="left"&gt;Deathless Vigor, Requiem Feature&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; 7th&lt;/td&gt;&lt;td class="left"&gt;—&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; 8th&lt;/td&gt;&lt;td class="left"&gt;Ability Score Improvement, Potent Spellcasting&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; 9th&lt;/td&gt;&lt;td class="left"&gt;—&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;10th&lt;/td&gt;&lt;td class="left"&gt;Requiem Feature&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;11th&lt;/td&gt;&lt;td class="left"&gt;—&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;12th&lt;/td&gt;&lt;td class="left"&gt;Ability Score Improvement&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;13th&lt;/td&gt;&lt;td class="left"&gt;—&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;14th&lt;/td&gt;&lt;td class="left"&gt;Requiem Feature&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;15th&lt;/td&gt;&lt;td class="left"&gt;—&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;16th&lt;/td&gt;&lt;td class="left"&gt;Ability Score Improvement&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;17th&lt;/td&gt;&lt;td class="left"&gt;Undead Acclimation&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;18th&lt;/td&gt;&lt;td class="left"&gt;Necromastery&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;19th&lt;/td&gt;&lt;td class="left"&gt;Ability Score Improvement&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;20th&lt;/td&gt;&lt;td class="left"&gt;Rebuke the Grave&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;div element="ID_USER_TPM_SPELLCASTING" /&gt;
+&lt;div element="ID_USER_BULWARK_OF_THE_UNDEAD" /&gt;
+&lt;div element="ID_USER_REQUIEM_OF_SOULS" /&gt;
+&lt;div element="ID_USER_REAPER_OF_SOULS" /&gt;
+&lt;div element="ID_USER_DEATHS_WHISPER" /&gt;
+&lt;div element="ID_USER_DEATHS_WHISPER" /&gt;
+&lt;div element="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_ABILITYSCOREIMPROVEMENT_WIZARD" /&gt;
+&lt;div element="ID_USER_DEATHLESS_VIGOR" /&gt;
+&lt;div element="ID_USER_POTENT_SPELLCASTING" /&gt;
+&lt;div element="ID_USER_UNDEAD_ACCLIMATION" /&gt;
+&lt;div element="ID_USER_NECROMASTERY" /&gt;
+&lt;div element="ID_USER_REBUKE_THE_GRAVE" /&gt;</html>
+		</description>
+		<setters>
+			<set name="short">A scholarly magic-user capable of manipulating the forces of death.</set>
+			<set name="hd">d8</set>
+		</setters>
+		<sheet display="false">
+			<description>A scholarly magic-user capable of manipulating the structures of reality.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SICKLE" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SLING" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_QUARTERSTAFF" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_HAMMER_LIGHT" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD" />
+			<select type="Proficiency" name="Skill Proficiency (Pale Master)" supports="Skill, Pale MAster" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD" number="2" />
+			<grant type="Class Feature" id="ID_USER_TPM_SPELLCASTING" />
+			<grant type="Class Feature" id="ID_USER_REQUEIM_OF_TWILIGHT" />
+			<grant type="Class Feature" id="ID_USER_REAPER_OF_SOULS" />
+			<grant type="Class Feature" id="ID_CLASS_FEATURE_NEW_CLASS_FEATURE" />
+			<grant type="Class Feature" id="ID_USER_DEATHS_WHISPER" level="2" />
+			<grant type="Class Feature" id="ID_USER_SIPHON_LIFE" level="2" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_ABILITYSCOREIMPROVEMENT_WIZARD" level="4" />
+			<grant type="Class Feature" id="ID_USER_DEATHLESS_VIGOR" level="6" />
+			<grant type="Class Feature" id="ID_USER_POTENT_SPELLCASTING" level="8" />
+			<grant type="Class Feature" id="ID_USER_UNDEAD_ACCLIMATION" level="17" />
+		</rules>
+		<multiclass id="ID_WOTC_PHB_MULTICLASS_WIZARD">
+			<prerequisite>Intelligence 13</prerequisite>
+			<requirements>[int:13]</requirements>
+			<setters>
+				<set name="multiclass proficiencies">—</set>
+			</setters>
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+			</rules>
+		</multiclass>
+	</element>
+	<element name="Spellcasting" type="Class Feature" source="User" id="ID_USER_TPM_SPELLCASTING">
+		<description>
+			<html>&lt;p&gt;As a student of necromantic magic, you have obtained a grimoire containing spells dealing with the dark arts. At first, your ability to understand the scripture in this tome is limited.r.&lt;/p&gt;
+&lt;p class=indent&gt;However, you are told that through devoted study and practice you will be able to decipher more of the pages, and the potency of the spells available to you will become formidable. Unlike more traditional arcane casters, you are unable to learn spells from schools of magic other than necromancy unless they are granted by your chosen requiem.&lt;/p&gt;
+&lt;h5&gt;CANTRIPS&lt;/h5&gt;
+&lt;p&gt;At 1st level, you know three cantrips of your choice from the Pale Master spell list. You learn additional wizard cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Pale Master table.&lt;/p&gt;
+&lt;h5&gt;GRIMOIRE&lt;/h5&gt;
+&lt;p&gt;At 1st level, you obtain a tome containing all of the currently known necromancy spells in the realm. There are a few blank pages at the back of the grimoire, allowing you to inscribe any requiem spells you learn during your travels when you choose which requiem path to follow.&lt;/p&gt;
+&lt;p class=indent&gt;The spells that you decipher in your grimoire as you gain levels reflect the research you conduct on your own, as well as intellectual breakthroughs you have had while dealing with undead.&lt;/p&gt;
+&lt;h5&gt;PREPARING AND CASTING SPELLS&lt;/h5&gt;
+&lt;p&gt;The Pale Master table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.&lt;/p&gt;
+&lt;p class="indent"&gt;You prepare the list of necromancy spells that are available for you to cast. To do so, choose a number of pale master spells from your grimoire equal to your Intelligence modifier + your pale master level (minimum of one spell). The spells must be of a level for which you have spell slots.&lt;/p&gt;
+&lt;p class="indent"&gt;For example, if you’re a 3rd-level pale master you have four 1st-level and two 2nd-level spell slots. With an Intelligence of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination, chosen from your grimoire. If you prepare the 1st-level spell inflict wounds, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn’t remove it from your list of prepared spells.&lt;/p&gt;
+&lt;p class="indent"&gt;You can change your list of prepared spells when you finish a long rest. Preparing a new list of pale master spells requires time spent studying your grimoire and memorizing the incantations and gestures you must make to cast the spell: at least 1 minute per spell level for each spell on your list.&lt;/p&gt;
+&lt;h5&gt;SPELLCASTING ABILITY&lt;/h5&gt;
+&lt;p&gt;Intelligence is your spellcasting ability for your Pale Master spells, since you learn your spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a Pale Master spell you cast and when making an attack roll with one.&lt;/p&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;strong&gt;Spell save DC&lt;/strong&gt; = 8 + your proficiency bonus + your Intelligence modifier&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Spell attack modifier&lt;/strong&gt; = your proficiency bonus + your Intelligence modifier&lt;/p&gt;
+&lt;/center&gt;
+&lt;h5&gt;RITUAL CASTING&lt;/h5&gt;
+&lt;p&gt;You can cast a necromancy spell as a ritual as the spell is in your grimoire. You don’t need to have the spell prepared.&lt;/p&gt;
+&lt;h5&gt;SPELLCASTING FOCUS&lt;/h5&gt;
+&lt;p&gt;You can use an arcane focus (found in chapter 5) as a spellcasting focus for your pale master spells. Your Undead Graft, obtained at 3rd level, becomes your spellcasting focus.&lt;/p&gt;
+&lt;h5&gt;LEARNING SPELLS OF 1ST LEVEL AND HIGHER&lt;/h5&gt;
+&lt;p&gt;Each time you gain a pale master level, you are able to decipher more of your grimoire. When you gain a new spell slot level, you are able to understand and cast the corresponding level of spells if you have them prepared.&lt;/p&gt;
+&lt;h5&gt;REPLACING A GRIMOIRE&lt;/h5&gt;
+&lt;p&gt;Your grimoire is an ancient tome that was given to you and is thus practically irreplaceable.&lt;/p&gt;
+&lt;p class="indent"&gt;However, you are able to copy a spell from your own grimoire into another tome – for example, if you want to make a backup copy of your grimoire. This is a lengthy and painstaking process, particularly for the spells you have not yet deciphered and used..&lt;/p&gt;
+&lt;p class="indent"&gt;For spells you are able to cast, coping the spell is just like scribing onto a scroll, but faster and easier, since you understand the notation and already know how to cast the spell. You need spend only 1 hour and 10 gp. for each level of the copied spell.&lt;/p&gt;
+&lt;p class="indent"&gt;For spells you cannot yet cast, the process is much more difficult. To retain the incantation’s meaning, you must copy it exactly. To do so, you may make an arcana check against a DC 15 for second levels spells. This DC further increases by 2 for every additional spell level you wish to transcribe.&lt;/p&gt;
+&lt;p class="indent"&gt;For this reason, it is very rare for a pale master to make copies of their grimoire; rather choosing to value it above all their other material possessions&lt;/p&gt;
+&lt;h5&gt;THE GRIMOIRE'S APPEARANCE&lt;/h5&gt;
+&lt;p&gt;A pale master’s grimoire tends to don runes inlaid into a black leather cover, which symbolize the dark magic contained within.&lt;/p&gt;</html>
+		</description>
+		<sheet display="false">
+			<description>You can prepare {{wizard:spellcasting:prepare}} spells from the your spellbook. You use an arcane focus to cast spells. and can also cast wizard spells as a ritual.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_RITUAL_CASTING" />
+			<grant type="Proficiency" id="ID_INTERNAL_PROFICIENCY_SPELLFOCUS_GROUP_ARCANE_FOCUS" />
+			<stat name="wizard:spellcasting:slots:1" value="2" level="1" />
+			<stat name="wizard:spellcasting:slots:1" value="1" level="2" />
+			<stat name="wizard:spellcasting:slots:1" value="1" level="3" />
+			<stat name="wizard:spellcasting:slots:2" value="2" level="3" />
+			<stat name="wizard:spellcasting:slots:2" value="1" level="4" />
+			<stat name="wizard:spellcasting:slots:3" value="2" level="5" />
+			<stat name="wizard:spellcasting:slots:3" value="1" level="6" />
+			<stat name="wizard:spellcasting:slots:4" value="1" level="7" />
+			<stat name="wizard:spellcasting:slots:4" value="1" level="8" />
+			<stat name="wizard:spellcasting:slots:4" value="1" level="9" />
+			<stat name="wizard:spellcasting:slots:5" value="1" level="9" />
+			<stat name="wizard:spellcasting:slots:5" value="1" level="10" />
+			<stat name="wizard:spellcasting:slots:5" value="1" level="18" />
+			<stat name="wizard:spellcasting:slots:6" value="1" level="11" />
+			<stat name="wizard:spellcasting:slots:6" value="1" level="19" />
+			<stat name="wizard:spellcasting:slots:7" value="1" level="13" />
+			<stat name="wizard:spellcasting:slots:7" value="1" level="20" />
+			<stat name="wizard:spellcasting:slots:8" value="1" level="15" />
+			<stat name="wizard:spellcasting:slots:9" value="1" level="17" />
+			<stat name="wizard:spellcasting:prepare" value="intelligence:modifier" />
+			<stat name="wizard:spellcasting:prepare" value="level:wizard" />
+			<select type="Spell" name="Cantrip (Pale Master)" supports="$(spellcasting:list), 0" level="1" number="3" spellcasting="Wizard" />
+			<select type="Spell" name="Cantrip (Pale Master)" supports="$(spellcasting:list), 0" level="4" spellcasting="Wizard" />
+			<select type="Spell" name="Cantrip (Pale Master)" supports="$(spellcasting:list), 0" level="10" spellcasting="Wizard" />
+		</rules>
+		<spellcasting name="Pale One" ability="Intelligence" prepare="true">
+			<list>Wizard</list>
+		</spellcasting>
+	</element>
+	<element name="Requeim of Souls" type="Class Feature" source="Player’s Handbook" id="ID_USER_REQUIEM_OF_SOULS">
+		<description>
+			<html>&lt;p&gt;The study of the dark arts is ancient, stretching back to the earliest discoveries of magic. It is firmly established in the realm.&lt;/p&gt;
+&lt;p class="indent"&gt;At 1st level, choose which requiem you will follow; shaping your understanding of dark magic through their practice.&lt;/p&gt;
+&lt;p class="indent"&gt;These requiems are called: Requiem of the Ash, Requiem of the Frigid, Requiem of the Haunt, and Requiem of the Torpor.&lt;/p&gt;
+&lt;p class="indent"&gt;Each is detailed at the end of the class description.&lt;/p&gt;
+&lt;p class="indent"&gt;Your choice grants you requiem spells and other features when you choose it at 1st level. It also grants you an undead graft feature specific to your requiem at 3rd level, and additional benefits at 6th, 10th, and 14th levels.&lt;/p&gt;</html>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Archetype" name="Requiem of Souls" supports="Requiem of Souls" level="1" />
+		</rules>
+	</element>
+	<element name="Requiem of Twilight" type="Archetype" source="User" id="ID_USER_REQUIEM_OF_TWILIGHT">
+		<description>
+			<html>&lt;p&gt;In an attempt to become one with the darkness itself, twilight pale masters devote their research to shadows and wraiths.&lt;/p&gt;
+&lt;p class="indent"&gt;Their haunting devotion gives them unique abilities unavailable to other pale masters, ones which allow them to become a terrifying form partially illuminated by the moon's eerie gaze.&lt;/p&gt;</html>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_USER_ARCHETYPE_FEATURE_REQUIEM_OF_TWILIGHT_UMBRAL_ARM" />
+			<grant type="Archetype Feature" id="ID_USER_ARCHETYPE_FEATURE_REQUIEM_OF_TWILIGHT_FEARFUL_TOUCH" level="3" />
+			<grant type="Archetype Feature" id="ID_USER_ARCHETYPE_FEATURE_REQUIEM_OF_TWILIGHT_STEPS_OF_TWILIGHT" level="6" />
+			<grant type="Archetype Feature" id="ID_USER_ARCHETYPE_FEATURE_REQUIEM_OF_TWILIGHT_INSATIABLE_HORROR" level="6" />
+			<grant type="Archetype Feature" id="ID_USER_ARCHETYPE_FEATURE_REQUIEM_OF_TWILIGHT_ASPECT_OF_TWILIGHT" level="10" />
+			<grant type="Archetype Feature" id="ID_USER_ARCHETYPE_FEATURE_REQUIEM_OF_TWILIGHT_TERROR_IN_THE_NIGHT" level="14" />
+		</rules>
+	</element>
+	<element name="Undead Graft: Umbral Arm" type="Archetype Feature" source="User" id="ID_USER_ARCHETYPE_FEATURE_REQUIEM_OF_TWILIGHT_UMBRAL_ARM">
+		<meta>
+			<parent>Requiem of Twilight</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;Beginning when you select this Requiem at 1st level, you infuse the pores of your arm with small traces of necrotic energies that manifest and wreathe your arm in shadow.&lt;/p&gt;
+&lt;p class="indent"&gt;Your undead graft becomes a spellcasting focus for your magic, allowing you to cast spells with it and perform the somatic components of spells even when you have weapons or a shield in one or both hands. Additionally, you may attack with your graft as if it were a simple weapon with which you are proficient. To do so, you make a melee spell attack against a creature, dealing 1d8 necrotic damage on a hit.&lt;/p&gt;
+&lt;p class="indent"&gt;At 6th level, your graft gains a +1 bonus to melee attacks and damage rolls. This increases to a +2 bonus at 12th level and a +3 bonus at 17th level.&lt;/p&gt;</html>
+		</description>
+		<sheet alt="Umbral Arm">
+			<description>Beginning when you select this elegy at 1st level, you infuse the pores of your arm with small traces of necrotic energies that manifest and wreathe your arm in shadow. 
+Your undead graft becomes a spellcasting focus for your magic, allowing you to cast spells with it and perform the somatic components of spells even when you have weapons or a shield in one or both hands. Additionally, you may attack with your graft as if it were a simple weapon with which you are proficient. To do so, you make a melee spell attack against a creature, dealing 1d8 necrotic damage on a hit. 
+At 6th level, your graft gains a +1 bonus to melee attacks and damage rolls. This increases to a +2 bonus at 12th level and a +3 bonus at 17th level.</description>
+		</sheet>
+		<rules>
+			<grant type="Weapon" id="ID_USER_GRAFT_UMBRAL" />
+		</rules>
+	</element>
+	<element name="Umbral Arm" type="Weapon" source="User" id="ID_USER_GRAFT_UMBRAL">
+		<description>
+			<html>&lt;p&gt;Spellcasting Focus; Simple weapon 1d8+Int&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">25</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="necrotic">1d8</set>
+			<set name="proficiency" />
+		</setters>
+		<sheet display="false" />
+	</element>
+	<element name="Fearful Touch" type="Archetype Feature" source="User" id="ID_USER_ARCHETYPE_FEATURE_REQUIEM_OF_TWILIGHT_FEARFUL_TOUCH">
+		<description>
+			<html>&lt;p&gt;Starting at 3rd level, when you hit a creature with a melee spell attack from your undead graft, you can instill irrational terror.&lt;/p&gt;
+&lt;p class="indent"&gt;The target takes an additional 2d8 necrotic damage and must succeed on a Wisdom saving throw or become frightened for 1 minute. A creature frightened in this manner must take the Dash action and move away from you by the safest available route on each of its turns. If there is nowhere to move, the creature stays in its current location, but takes 2d8 necrotic damage.&lt;/p&gt;
+&lt;p class="indent"&gt;You can use this feature a number of times equal to your Constitution modifier.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>&lt;p&gt;When you hit a creature with a melee spell attack from your undead graft, you can instill irrational terror.&lt;/p&gt;
+&lt;p class="indent"&gt;The target takes an additional 2d8 necrotic damage and must succeed on a Wisdom saving throw or become frightened for 1 minute. A creature frightened in this manner must take the Dash action and move away from you by the safest available route on each of its turns. If there is nowhere to move, the creature stays in its current location, but takes 2d8 necrotic damage.&lt;/p&gt;
+&lt;p class="indent"&gt;You can use this feature a number of times equal to your Constitution modifier.&lt;/p&gt;</description>
+		</sheet>
+	</element>
+	<element name="Steps of Twilight" type="Archetype Feature" source="User" id="ID_USER_ARCHETYPE_FEATURE_REQUIEM_OF_TWILIGHT_STEPS_OF_TWILIGHT">
+		<description>
+			<html>&lt;p&gt;Starting at 6th level, you can draw on the mystical power of night to rise into the air. As a bonus action when you are in dim light or darkness, you can magically give yourself a flying speed equal to your walking speed for 1 minute. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.&lt;/p&gt;</html>
+		</description>
+		<sheet usage="{{proficiency}}/Long Rest">
+			<description>As a bonus action when you are in dim light or darkness, you can magically give yourself a flying speed equal to your walking speed for 1 minute. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</description>
+		</sheet>
+	</element>
+	<element name="Insatiable Horror" type="Archetype Feature" source="User" id="ID_USER_ARCHETYPE_FEATURE_REQUIEM_OF_TWILIGHT_INSATIABLE_HORROR">
+		<description>
+			<html>&lt;p&gt;Starting at 6th level, you can cast the fear spell using one of your spell slots, but it does not count towards your number of prepared spells. When you cast fear, each target makes the Wisdom saving throw with disadvantage.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>You can cast the fear spell using one of your spell slots, but it does not count towards your number of prepared spells. When you cast fear, each target makes the Wisdom saving throw with disadvantage.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_FEAR" level="6" />
+		</rules>
+	</element>
+	<element name="Aspect of Twilight" type="Archetype Feature" source="User" id="ID_USER_ARCHETYPE_FEATURE_REQUIEM_OF_TWILIGHT_ASPECT_OF_TWILIGHT">
+		<description>
+			<html>&lt;p&gt;Starting at 10th level, your mastery over fear has reached a new level. When you force a creature within 60 feet of you to make a wisdom saving throw against fear, they make so with disadvantage. Also, you are able to frighten even those who are immune to it.&lt;/p&gt;
+&lt;p class="indent"&gt;Additionally, when you deal necrotic damage to a creature, you force the target to succeed on a Wisdom saving throw or become frightened of you until the end of its next turn.&lt;/p&gt;
+&lt;p class="indent"&gt;You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain expended uses when you finish a long rest.&lt;/p&gt;</html>
+		</description>
+		<sheet usage="{{intelligence:modifier}}/Long Rest">
+			<description>&lt;p&gt;When you force a creature within 60 feet of you to make a Wisdom saving throw against fear, they make so with disadvantage. Also, you are able to frighten even those who are immune to it.&lt;/p&gt;
+&lt;p class="indent"&gt;Additionally, when you deal necrotic damage to a creature, you force the target to succeed on a Wisdom saving throw or become frightened of you until the end of its next turn.&lt;/p&gt;
+&lt;p class="indent"&gt;You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain expended uses when you finish a long rest.&lt;/p&gt;</description>
+		</sheet>
+	</element>
+	<element name="Terror in the Night" type="Archetype Feature" source="User" id="ID_USER_ARCHETYPE_FEATURE_REQUIEM_OF_TWILIGHT_TERROR_IN_THE_NIGHT">
+		<description>
+			<html>&lt;p&gt;Your research has led to a profound breakthrough, allowing you to become one with the darkeness.&lt;/p&gt;
+&lt;p class="indent"&gt;At 14th level, while in an area of dim light or darkness, you can meld with the shadows for 1 hour. While melded, you gain advantage on Dexterity (Stealth) checks, can take the Hide action as a bonus action, and are able to move through a space as narrow as 1 inch wide without squeezing. You retain all of your normal statistics and abilities while melded.&lt;/p&gt;
+&lt;p class="indent"&gt;You can move through areas of sunlight while melded, but suffer disadvantage on attack rolls, ability checks, and saving throws while in sunlight. Ending your turn in sunlight ends the melded condition.&lt;/p&gt;
+&lt;p class="indent"&gt;Once you use this feature, you can’t use it again until you finish a short or long rest.&lt;/p&gt;</html>
+		</description>
+		<sheet usage="1/Short or Long Rest">
+			<description>&lt;p&gt;While in an area of dim light or darkness, you can meld with the shadows for 1 hour. While melded, you gain advantage on Dexterity (Stealth) checks, can take the Hide action as a bonus action, and are able to move through a space as narrow as 1 inch wide without squeezing. You retain all of your normal statistics and abilities while melded.&lt;/p&gt;
+&lt;p class="indent"&gt;You can move through areas of sunlight while melded, but suffer disadvantage on attack rolls, ability checks, and saving throws while in sunlight. Ending your turn in sunlight ends the melded condition.&lt;/p&gt;
+&lt;p class="indent"&gt;Once you use this feature, you can’t use it again until you finish a short or long rest.&lt;/p&gt;</description>
+		</sheet>
+	</element>
+	<element name="Bulwark of the Undead" type="Class Feature" source="User" id="ID_USER_BULWARK_OF_THE_UNDEAD">
+		<description>
+			<html>&lt;p&gt;At 1st level, you learn to harness the gifts possessed by the undead creatures in your company. You gain immunity to disease and while you are wearing no armor and are not wielding a shield, your AC equals 13 + your Constitution modifier as your skin becomes as hard as bone.&lt;/p&gt;</html>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Class Feature" id="ID_USER_UNARMORED_DEFENSE" />
+		</rules>
+	</element>
+	<element name="Unarmored Defense" type="Class Feature" source="Player’s Handbook" id="ID_USER_UNARMORED_DEFENSE">
+		<description>
+			<html>&lt;p&gt;While you are not wearing any armor, your Armor Class equals 13 + your Constitution modifier.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>While you aren’t wearing armor, your AC equals {{ac:unarmored defense barbarian}}.</description>
+		</sheet>
+		<rules>
+			<stat name="ac:unarmored defense barbarian:base" value="13" />
+			<stat name="ac:unarmored defense barbarian:constitution" value="constitution:modifier" />
+			<stat name="ac:unarmored defense barbarian" value="ac:unarmored defense barbarian:base" />
+			<stat name="ac:unarmored defense barbarian" value="ac:unarmored defense barbarian:constitution" />
+			<stat name="ac:calculation" value="ac:unarmored defense barbarian" bonus="calculation" equipped="[armor:none]" alt="Unarmored Defense (Barbarian)" />
+		</rules>
+	</element>
+	<element name="Reaper of Souls" type="Class Feature" source="Dungeon Master’s Guide" id="ID_USER_REAPER_OF_SOULS">
+		<description>
+			<html>&lt;p&gt;At 1st level, when you cast a necromancy cantrip that normally targets only one creature, the spell can instead target two creatures within range and within 5 feet of each other.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>When you cast a necromancy cantrip that targets one creature, you can target two creatures within range and within 5ft of each other instead.</description>
+		</sheet>
+	</element>
+	<element name="Death's Whisper" type="Class Feature" source="User" id="ID_USER_DEATHS_WHISPER">
+		<description>
+			<html>&lt;p&gt;Starting at 2nd level, you gain the ability to cast speak with dead as a ritual. Once you use this feature, you can’t use it again until you finish a long rest.&lt;/p&gt;
+&lt;p class="indent"&gt;Also, the undead who lurk in the dark begin to lose their mystery. You gain darkvision out to 60 feet (if you already have darkvision, its effective distance is increased by 30 feet), you become proficient with the Religion skill if you are not already and you have advantage on all Religion skill checks if they are related to the undead.&lt;/p&gt;</html>
+		</description>
+		<sheet usage="1/Long Rest">
+			<description>&lt;p&gt;You gain the ability to cast speak with dead as a ritual. Once you use this feature, you can’t use it again until you finish a long rest.&lt;/p&gt;
+&lt;p class="indent"&gt;Also, the undead who lurk in the dark begin to lose their mystery. You gain darkvision out to 60 feet (if you already have darkvision, its effective distance is increased by 30 feet), you become proficient with the Religion skill if you are not already and you have advantage on all Religion skill checks if they are related to the undead.</description>
+		</sheet>
+	</element>
+	<element name="Siphon Life" type="Class Feature" source="User" id="ID_USER_SIPHON_LIFE">
+		<description>
+			<html>&lt;p&gt;Starting at 2nd level, when you deal the killing blow to a foe using a necromancy spell, you gain a number of temporary Hit Points equal to your pale master level + your constitution modifier. You can use this feature a number of times equal to your Constitution modifier per long rest.&lt;/p&gt;</html>
+		</description>
+		<sheet usage="{{constitution:modifier}}/Long Rest">
+			<description>When you deal the killing blow to a foe using a necromancy spell, you gain a number of temporary Hit Points equal to your pale master level + your constitution modifier. You can use this feature a number of times equal to your Constitution modifier per long rest.</description>
+		</sheet>
+	</element>
+	<element name="Deathless Vigor" type="Class Feature" source="User" id="ID_USER_DEATHLESS_VIGOR">
+		<description>
+			<html>&lt;p&gt;At 6th level, your body becomes more akin to the undead you keep in your cohort. You become resistant to necrotic damage, and your hit point maximum cannot be reduced.&lt;/p&gt;
+&lt;p class="indent"&gt;Additionally, you are able to reroll a failed Constitution saving throw but must take the second result. You can use this feature a number of times equal to your Constitution modifier (a minimum of once). You regain expended uses when you finish a long rest.&lt;/p&gt;</html>
+		</description>
+		<sheet usage="{{constitution:modifier}}/Long Rest">
+			<description>&lt;p&gt;You become resistant to necrotic damage, and your hit point maximum cannot be reduced.&lt;/p&gt;
+&lt;p class="indent"&gt;Additionally, you are able to reroll a failed Constitution saving throw but must take the second result. You can use this feature a number of times equal to your Constitution modifier (a minimum of once). You regain expended uses when you finish a long rest.&lt;/p&gt;</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+		</rules>
+	</element>
+	<element name="Potent Spellcasting" type="Class Feature" source="User" id="ID_USER_POTENT_SPELLCASTING">
+		<description>
+			<html>&lt;p&gt;Starting at 8th level, you add your Intelligence modifier to the damage you deal with any cleric cantrip.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>+{{intelligence:modifier}} to the damage you deal with any cleric cantrip.</description>
+		</sheet>
+	</element>
+	<element name="Undead Acclimation" type="Class Feature" source="User" id="ID_USER_UNDEAD_ACCLIMATION">
+		<description>
+			<html>&lt;p&gt;By 17th level, you have spent so much time dealing with undead and the powers of animation that you gain prowess over some of their most predominant effects.&lt;/p&gt;
+&lt;p class="indent"&gt;When you are hit with an attack that deals critical damage, the attack does normal damage instead. Additionally, you are immune to necrotic damage.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>When you are hit with an attack that deals critical damage, the attack does normal damage instead. Additionally, you are immune to necrotic damage.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_NECROTIC" />
+		</rules>
+	</element>
+	<element name="Necromastery" type="Class Feature" source="User" id="ID_USER_NECROMASTERY">
+		<description>
+			<html>&lt;p&gt;At 18th level, you have gained mastery over certain necromancy spells, allowing you to cast them at will.&lt;/p&gt;
+&lt;p class="indent"&gt;Choose a 1st-level pale master spell and a 2nd-level pale master spell that are in your grimoire and belong to the necromancy school of magic. You can cast those spells at their lowest level without expending a spell slot when you have them prepared. If you want to cast either spell at a higher level, you must expend a spell slot as normal&lt;/p&gt;
+&lt;p class="indent"&gt;By spending 8 hours in study, you can exchange one or both of the spells you chose for different spells of the same levels.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>&lt;p&gt;Choose a 1st-level pale master spell and a 2nd-level pale master spell that are in your grimoire and belong to the necromancy school of magic. You can cast those spells at their lowest level without expending a spell slot when you have them prepared. If you want to cast either spell at a higher level, you must expend a spell slot as normal&lt;/p&gt;
+&lt;p class="indent"&gt;By spending 8 hours in study, you can exchange one or both of the spells you chose for different spells of the same levels.&lt;/p&gt;</description>
+		</sheet>
+	</element>
+	<element name="Rebuke the Grave" type="Class Feature" source="Dungeon Master’s Guide" id="ID_USER_REBUKE_THE_GRAVE">
+		<description>
+			<html>&lt;p&gt;At 20th level, when you take a single source of damage that would knock you unconscious or kill you outright, you may use this feature as a reation to take no damage instead.&lt;/p&gt;
+&lt;p class="indent"&gt;You can choose to allow an ally within 120 feet to use this ability with its reaction instead of yourself. Once you use this feature, you cannot do so again until you complete a long rest&lt;/p&gt;</html>
+		</description>
+		<sheet usage="1/Long Rest">
+			<description>&lt;p&gt;At 20th level, when you take a single source of damage that would knock you unconscious or kill you outright, you may use this feature as a reation to take no damage instead.&lt;/p&gt;
+&lt;p class="indent"&gt;You can choose to allow an ally within 120 feet to use this ability with its reaction instead of yourself. Once you use this feature, you cannot do so again until you complete a long rest&lt;/p&gt;</description>
+		</sheet>
+	</element>
+</elements>
