@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<element name="Requiem of Twilight" type="Archetype" source="User" id="ID_USER_REQUIEM_OF_TWILIGHT">
+		<description>
+			<html>&lt;p&gt;In an attempt to become one with the darkness itself, twilight pale masters devote their research to shadows and wraiths.&lt;/p&gt;
+&lt;p class="indent"&gt;Their haunting devotion gives them unique abilities unavailable to other pale masters, ones which allow them to become a terrifying form partially illuminated by the moon's eerie gaze.&lt;/p&gt;</html>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_USER_ARCHETYPE_FEATURE_REQUIEM_OF_TWILIGHT_UMBRAL_ARM" />
+			<grant type="Archetype Feature" id="ID_USER_ARCHETYPE_FEATURE_REQUIEM_OF_TWILIGHT_FEARFUL_TOUCH" level="3" />
+			<grant type="Archetype Feature" id="ID_USER_ARCHETYPE_FEATURE_REQUIEM_OF_TWILIGHT_STEPS_OF_TWILIGHT" level="6" />
+			<grant type="Archetype Feature" id="ID_USER_ARCHETYPE_FEATURE_REQUIEM_OF_TWILIGHT_INSATIABLE_HORROR" level="6" />
+			<grant type="Archetype Feature" id="ID_USER_ARCHETYPE_FEATURE_REQUIEM_OF_TWILIGHT_ASPECT_OF_TWILIGHT" level="10" />
+			<grant type="Archetype Feature" id="ID_USER_ARCHETYPE_FEATURE_REQUIEM_OF_TWILIGHT_TERROR_IN_THE_NIGHT" level="14" />
+		</rules>
+	</element>
+	<element name="Undead Graft: Umbral Arm" type="Archetype Feature" source="User" id="ID_USER_ARCHETYPE_FEATURE_REQUIEM_OF_TWILIGHT_UMBRAL_ARM">
+		<meta>
+			<parent>Requiem of Twilight</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;Beginning when you select this Requiem at 1st level, you infuse the pores of your arm with small traces of necrotic energies that manifest and wreathe your arm in shadow.&lt;/p&gt;
+&lt;p class="indent"&gt;Your undead graft becomes a spellcasting focus for your magic, allowing you to cast spells with it and perform the somatic components of spells even when you have weapons or a shield in one or both hands. Additionally, you may attack with your graft as if it were a simple weapon with which you are proficient. To do so, you make a melee spell attack against a creature, dealing 1d8 necrotic damage on a hit.&lt;/p&gt;
+&lt;p class="indent"&gt;At 6th level, your graft gains a +1 bonus to melee attacks and damage rolls. This increases to a +2 bonus at 12th level and a +3 bonus at 17th level.&lt;/p&gt;</html>
+		</description>
+		<sheet alt="Umbral Arm">
+			<description>Beginning when you select this elegy at 1st level, you infuse the pores of your arm with small traces of necrotic energies that manifest and wreathe your arm in shadow. 
+Your undead graft becomes a spellcasting focus for your magic, allowing you to cast spells with it and perform the somatic components of spells even when you have weapons or a shield in one or both hands. Additionally, you may attack with your graft as if it were a simple weapon with which you are proficient. To do so, you make a melee spell attack against a creature, dealing 1d8 necrotic damage on a hit. 
+At 6th level, your graft gains a +1 bonus to melee attacks and damage rolls. This increases to a +2 bonus at 12th level and a +3 bonus at 17th level.</description>
+		</sheet>
+		<rules>
+			<grant type="Weapon" id="ID_USER_GRAFT_UMBRAL" />
+		</rules>
+	</element>
+	<element name="Umbral Arm" type="Weapon" source="User" id="ID_USER_GRAFT_UMBRAL">
+		<description>
+			<html>&lt;p&gt;Spellcasting Focus; Simple weapon 1d8+Int&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">25</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="necrotic">1d8</set>
+			<set name="proficiency" />
+		</setters>
+		<sheet display="false" />
+	</element>
+	<element name="Fearful Touch" type="Archetype Feature" source="User" id="ID_USER_ARCHETYPE_FEATURE_REQUIEM_OF_TWILIGHT_FEARFUL_TOUCH">
+		<description>
+			<html>&lt;p&gt;Starting at 3rd level, when you hit a creature with a melee spell attack from your undead graft, you can instill irrational terror.&lt;/p&gt;
+&lt;p class="indent"&gt;The target takes an additional 2d8 necrotic damage and must succeed on a Wisdom saving throw or become frightened for 1 minute. A creature frightened in this manner must take the Dash action and move away from you by the safest available route on each of its turns. If there is nowhere to move, the creature stays in its current location, but takes 2d8 necrotic damage.&lt;/p&gt;
+&lt;p class="indent"&gt;You can use this feature a number of times equal to your Constitution modifier.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>&lt;p&gt;When you hit a creature with a melee spell attack from your undead graft, you can instill irrational terror.&lt;/p&gt;
+&lt;p class="indent"&gt;The target takes an additional 2d8 necrotic damage and must succeed on a Wisdom saving throw or become frightened for 1 minute. A creature frightened in this manner must take the Dash action and move away from you by the safest available route on each of its turns. If there is nowhere to move, the creature stays in its current location, but takes 2d8 necrotic damage.&lt;/p&gt;
+&lt;p class="indent"&gt;You can use this feature a number of times equal to your Constitution modifier.&lt;/p&gt;</description>
+		</sheet>
+	</element>
+	<element name="Steps of Twilight" type="Archetype Feature" source="User" id="ID_USER_ARCHETYPE_FEATURE_REQUIEM_OF_TWILIGHT_STEPS_OF_TWILIGHT">
+		<description>
+			<html>&lt;p&gt;Starting at 6th level, you can draw on the mystical power of night to rise into the air. As a bonus action when you are in dim light or darkness, you can magically give yourself a flying speed equal to your walking speed for 1 minute. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.&lt;/p&gt;</html>
+		</description>
+		<sheet usage="{{proficiency}}/Long Rest">
+			<description>As a bonus action when you are in dim light or darkness, you can magically give yourself a flying speed equal to your walking speed for 1 minute. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</description>
+		</sheet>
+	</element>
+	<element name="Insatiable Horror" type="Archetype Feature" source="User" id="ID_USER_ARCHETYPE_FEATURE_REQUIEM_OF_TWILIGHT_INSATIABLE_HORROR">
+		<description>
+			<html>&lt;p&gt;Starting at 6th level, you can cast the fear spell using one of your spell slots, but it does not count towards your number of prepared spells. When you cast fear, each target makes the Wisdom saving throw with disadvantage.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>You can cast the fear spell using one of your spell slots, but it does not count towards your number of prepared spells. When you cast fear, each target makes the Wisdom saving throw with disadvantage.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_FEAR" level="6" />
+		</rules>
+	</element>
+	<element name="Aspect of Twilight" type="Archetype Feature" source="User" id="ID_USER_ARCHETYPE_FEATURE_REQUIEM_OF_TWILIGHT_ASPECT_OF_TWILIGHT">
+		<description>
+			<html>&lt;p&gt;Starting at 10th level, your mastery over fear has reached a new level. When you force a creature within 60 feet of you to make a wisdom saving throw against fear, they make so with disadvantage. Also, you are able to frighten even those who are immune to it.&lt;/p&gt;
+&lt;p class="indent"&gt;Additionally, when you deal necrotic damage to a creature, you force the target to succeed on a Wisdom saving throw or become frightened of you until the end of its next turn.&lt;/p&gt;
+&lt;p class="indent"&gt;You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain expended uses when you finish a long rest.&lt;/p&gt;</html>
+		</description>
+		<sheet usage="{{intelligence:modifier}}/Long Rest">
+			<description>&lt;p&gt;When you force a creature within 60 feet of you to make a Wisdom saving throw against fear, they make so with disadvantage. Also, you are able to frighten even those who are immune to it.&lt;/p&gt;
+&lt;p class="indent"&gt;Additionally, when you deal necrotic damage to a creature, you force the target to succeed on a Wisdom saving throw or become frightened of you until the end of its next turn.&lt;/p&gt;
+&lt;p class="indent"&gt;You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain expended uses when you finish a long rest.&lt;/p&gt;</description>
+		</sheet>
+	</element>
+	<element name="Terror in the Night" type="Archetype Feature" source="User" id="ID_USER_ARCHETYPE_FEATURE_REQUIEM_OF_TWILIGHT_TERROR_IN_THE_NIGHT">
+		<description>
+			<html>&lt;p&gt;Your research has led to a profound breakthrough, allowing you to become one with the darkeness.&lt;/p&gt;
+&lt;p class="indent"&gt;At 14th level, while in an area of dim light or darkness, you can meld with the shadows for 1 hour. While melded, you gain advantage on Dexterity (Stealth) checks, can take the Hide action as a bonus action, and are able to move through a space as narrow as 1 inch wide without squeezing. You retain all of your normal statistics and abilities while melded.&lt;/p&gt;
+&lt;p class="indent"&gt;You can move through areas of sunlight while melded, but suffer disadvantage on attack rolls, ability checks, and saving throws while in sunlight. Ending your turn in sunlight ends the melded condition.&lt;/p&gt;
+&lt;p class="indent"&gt;Once you use this feature, you can’t use it again until you finish a short or long rest.&lt;/p&gt;</html>
+		</description>
+		<sheet usage="1/Short or Long Rest">
+			<description>&lt;p&gt;While in an area of dim light or darkness, you can meld with the shadows for 1 hour. While melded, you gain advantage on Dexterity (Stealth) checks, can take the Hide action as a bonus action, and are able to move through a space as narrow as 1 inch wide without squeezing. You retain all of your normal statistics and abilities while melded.&lt;/p&gt;
+&lt;p class="indent"&gt;You can move through areas of sunlight while melded, but suffer disadvantage on attack rolls, ability checks, and saving throws while in sunlight. Ending your turn in sunlight ends the melded condition.&lt;/p&gt;
+&lt;p class="indent"&gt;Once you use this feature, you can’t use it again until you finish a short or long rest.&lt;/p&gt;</description>
+		</sheet>
+	</element>
+</elements>
