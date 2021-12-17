@@ -337,7 +337,7 @@
 		</description>
 	</element>
 
-	<element name="Requiem of Twilight" type="Archetype" source="Death Warden" id="ID_USER_REQUIEM_OF_TWILIGHT">
+	<!--<element name="Requiem of Twilight" type="Archetype" source="Death Warden" id="ID_USER_REQUIEM_OF_TWILIGHT">
 		<supports>Death Warden Requiem of Souls</supports>
 		<description>
 			<p>In an attempt to become one with the darkness itself, twilight pale masters devote their research to shadows and wraiths.</p>
@@ -426,5 +426,5 @@
 			<p class="indent">You can move through areas of sunlight while melded, but suffer disadvantage on attack rolls, ability checks, and saving throws while in sunlight. Ending your turn in sunlight ends the melded condition.</p>
 			<p class="indent">Once you use this feature, you can’t use it again until you finish a short or long rest.</p></description>
 		</sheet>
-	</element>
+	</element>-->
 </elements>
