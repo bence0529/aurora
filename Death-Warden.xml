@@ -28,12 +28,12 @@
 			<h4>MASTERS OF NECROTIC MAGIC</h4>
 			<p>Death Wardens are arcane casters who draw on necromantic lore that provides a macabre power all its own. Some aspire to live forever, effectively becoming immortal. Others are fascinated with death and what happens to souls that are unable to pass into the afterlife. Some DEATH wardens seek to gain power through raising an army of once fallen soldiers to continue the battle once more. With this obsession to learn everything there is to know about the necromantic arts, a sacrifice happens as Death Warden becomes uninterested in other types of magic, except for a select few spells they feel can help them reach their goals faster. As a result, DEATH wardens have a very small subset of arcane spells to draw upon. This lack of breadth is offset by the unique abilities they gain while studying their undead subjects.</p>
 			<h4>CREATING A DEATH WARDEN</h4>
-			<p>Creating a DEATH warden character benefits from a backstory involving an encounter with an undead creature. How did your character first come into contact with the undead? Why did you become fascinated with them? Why have you devoted large amounts of time to studying them?</p>
+			<p>Creating a Death warden character benefits from a backstory involving an encounter with an undead creature. How did your character first come into contact with the undead? Why did you become fascinated with them? Why have you devoted large amounts of time to studying them?</p>
 			<p class="indent">What then drew you forth from this life of study? Do you want to find that a specific undead creature? Maybe you want to gain a better understanding of necromantic magic? Have you received word of a sealed crypt not yet plundered? Perhaps you seek immortality and learning about the undead will help you uncover the answer to this secret.</p>
 			<h5>QUICK BUILD</h5>
-			<p>You can make a DEATH warden quickly by following these suggestions. First, Intelligence should be your highest ability score, followed by Constitution. Second, choose the sage background. Third, choose the <i>blood siphon</i>, <i>corruption</i>, and <i>spare the dying</i> cantrips, along with the following 1st level spells from your grimoire: <i>death’s grasp</i>, <i>inflict wounds</i>, and <i>rot</i>.</p>
+			<p>You can make a Death Warden quickly by following these suggestions. First, Intelligence should be your highest ability score, followed by Constitution. Second, choose the sage background. Third, choose the <i>blood siphon</i>, <i>corruption</i>, and <i>spare the dying</i> cantrips, along with the following 1st level spells from your grimoire: <i>death’s grasp</i>, <i>inflict wounds</i>, and <i>rot</i>.</p>
 			<h3>CLASS FEATURES</h3>
-			<p>As a DEATH warden, you gain the following class features.</p>
+			<p>As a Death warden, you gain the following class features.</p>
 			<h5>HIT POINTS</h5>
 			<ul class="unstyled">
 				<li><strong>Hit Dice:</strong> 1d8 per DEATH warden level</li>
@@ -88,14 +88,15 @@
 			<div element="ID_USER_DEATH_WARDEN_BULWARK_OF_THE_UNDEAD" />
 			<div element="ID_USER_DEATH_WARDEN_SPELLCASTING_DEATH_WARDEN" />
 			<div element="ID_USER_DEATH_WARDEN_REQUIEM_OF_SOULS" />
-			<div element="ID_USER_DEATH_WARDEN_DARK_MENDING" />
+			<div element="ID_USER_DEATH_WARDEN_REAPER_OF_SOULS" />
 			<div element="ID_USER_DEATH_WARDEN_DEATHS_WHISPER" />
-			<div element="ID_USER_DEATH_WARDEN_ABILITYSCOREIMPROVEMENT_DEATH_WARDEN" />
+			<div element="ID_USER_DEATH_WARDEN_SIPHON_LIFE" />
+			<div element="ID_DMSG_GPGW_CLASS_FEATURE_GRAVE_WARDEN_ABILITYSCOREIMPROVEMENT_GRAVE_WARDEN" />
 			<div element="ID_USER_DEATH_WARDEN_DEATHLESS_VIGOR" />
-			<div element="ID_USER_DEATH_WARDEN_THRALLS_BOON" />
+			<div element="ID_USER_DEATH_WARDEN_POTENT_SPELLCASTING" />
 			<div element="ID_USER_DEATH_WARDEN_UNDEAD_ACCLIMATION" />
 			<div element="ID_USER_DEATH_WARDEN_NECROMASTERY" />
-			<div element="ID_USER_DEATH_WARDEN_REBUKE_THE_DEATH" />
+			<div element="ID_USER_DEATH_WARDEN_REBUKE_THE_GRAVE" />
 		</description>
 		<setters>
 			<set name="short">The Death Warden is a magic user obsessed with the study of life and death.</set>
@@ -117,13 +118,14 @@
 			<grant type="Class Feature" id="ID_USER_DEATH_WARDEN_REQUIEM_OF_SOULS" />
 			<grant type="Class Feature" id="ID_USER_DEATH_WARDEN_REAPER_OF_SOULS" />
 			<grant type="Class Feature" id="ID_USER_DEATH_WARDEN_DEATHS_WHISPER" level="2" />
-			<grant type="Class Feature" id="ID_USER_CLASS_FEATURE_DEATH_WARDEN_ABILITYSCOREIMPROVEMENT_DEATH_WARDEN" level="4" />
+			<grant type="Class Feature" id="ID_USER_DEATH_WARDEN_SIPHON_LIFE" level="2" />
+			<grant type="Class Feature" id="ID_DMSG_GPGW_CLASS_FEATURE_GRAVE_WARDEN_ABILITYSCOREIMPROVEMENT_GRAVE_WARDEN" level="4" />
 			<grant type="Class Feature" id="ID_USER_DEATH_WARDEN_DEATHLESS_VIGOR" level="6" />
 			<grant type="Class Feature" id="ID_USER_DEATH_WARDEN_POTENT_SPELLCASTING" level="8" />
 			<grant type="Class Feature" id="ID_USER_DEATH_WARDEN_UNDEAD_ACCLIMATION" level="17" />
 			<grant type="Class Feature" id="ID_USER_DEATH_WARDEN_NECROMASTERY" level="18" />
-			<grant type="Class Feature" id="ID_USER_DEATH_WARDEN_REBUKE_THE_DEATH" level="20" />
-			<grant type="Class Feature" id="ID_USER_DEATH_WARDEN_SIPHON_LIFE" level="2" />
+			<grant type="Class Feature" id="ID_USER_DEATH_WARDEN_REBUKE_THE_GRAVE" level="20" />
+			
 		</rules>
 		<multiclass id="ID_USER_MULTICLASS_DEATH_WARDEN">
 			<prerequisite>Intelligence 13</prerequisite>
@@ -171,7 +173,7 @@
 			<p class="indent">For this reason, it is very rare for a Death Warden to make copies of their grimoire; rather choosing to value it above all their other material possessions.</p>
 			<h5>THE GRIMOIRE’S APPEARANCE</h5>
 			<p>A Death Warden's grimoire tends to don runes inlaid into a black leather cover, which symbolize the dark magic contained within.</p>
-					</description>
+		</description>
 		<sheet display="false">
 			<description>You can prepare {{Death Warden:spellcasting:prepare}} spells from the your spellbook. You use an arcane focus to cast spells. and can also cast Death Warden spells as a ritual.</description>
 		</sheet>
@@ -215,7 +217,7 @@
 			<p class="indent">At 1st level, choose which requiem you will follow; shaping your understanding of dark magic through their practice. These requiems are called: Requiem of the Ash, Requiem of the Frigid, Requiem of the Haunt, Requiem of the Torpor, Requiem of Twilight. Each is detailed at the end of the class description.</p>
 			<p class="indent">Your choice grants you requiem spells and other features when you choose it at 1st level. It also grants you an undead graft feature specific to your requiem at 3rd level, and additional benefits at 6th, 10th, and 14th levels.</p>
 		</description>
-		<sheet display="false" />
+		<sheet display="false"></sheet>
 		<rules>
 			<select type="Archetype" name="Requiem of Souls" supports="Death Warden Requiem of Souls" />
 		</rules>
@@ -261,6 +263,20 @@
 		<sheet usage="{{constitution:modifier}}/Long Rest">
 			<description>When you deal the killing blow to a foe using a necromancy spell, you gain a number of temporary Hit Points equal to your pale master level + your constitution modifier. You can use this feature a number of times equal to your Constitution modifier per long rest.</description>
 		</sheet>
+	</element>
+	<element name="Ability Score Improvement" type="Class Feature" source="The Grave Warden" id="ID_DMSG_GPGW_CLASS_FEATURE_GRAVE_WARDEN_ABILITYSCOREIMPROVEMENT_GRAVE_WARDEN">
+		<compendium display="false" />
+		<description>
+			<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Improvement Option (Death Warden 4)" supports="Improvement Option,Grave Warden,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Death Warden 8)" supports="Improvement Option,Grave Warden,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Death Warden 12)" supports="Improvement Option,Grave Warden,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Death Warden 16)" supports="Improvement Option,Grave Warden,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Death Warden 19)" supports="Improvement Option,Grave Warden,19" level="19" />
+		</rules>
 	</element>
 	<element name="Deathless Vigor" type="Class Feature" source="The Death Warden" id="ID_USER_DEATH_WARDEN_DEATHLESS_VIGOR">
 		<description>
