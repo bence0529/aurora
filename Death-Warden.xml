@@ -331,13 +331,14 @@
 			<description>When you take a single source of damage that would knock you unconscious or kill you outright, you may use this feature to take no damage instead. You can choose to allow an ally within 120 feet to use this ability with its reaction instead of yourself.</description>
 		</sheet>
 	</element>
+	<!--
 	<element name="Requiem of Souls" type="Information" source="Death Warden" id="ID_USER_INFORMATION_REQUIEM_OF_SOULS">
 		<description>
 			<p><i>"Everything that grows will wither and die"</i> is the essence of all creation as understood by grave wardens, but their methods for acting upon this ideal differs greatly. Death Wardens are able to focus their studies into different specializations, called requiems. While all death Wardens can summon the dead to fight for them, some are able to draw on life force and use it to strengthen or heal themselves and their allies, some harness winter's fury or blend in and even control the shadows and the horrifying creatures that cast light aside, while others spread decay and undeath upon their foes and effortlessly raise them as undead abominations.</p>
 		</description>
 	</element>
 
-	<!--<element name="Requiem of Twilight" type="Archetype" source="Death Warden" id="ID_USER_REQUIEM_OF_TWILIGHT">
+	<element name="Requiem of Twilight" type="Archetype" source="Death Warden" id="ID_USER_REQUIEM_OF_TWILIGHT">
 		<supports>Death Warden Requiem of Souls</supports>
 		<description>
 			<p>In an attempt to become one with the darkness itself, twilight pale masters devote their research to shadows and wraiths.</p>
