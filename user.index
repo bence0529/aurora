@@ -8,7 +8,6 @@
 		</update>
 	</info>
 	<files>
-		<file name="wizard-hedge-magic.xml" url="https://github.com/bence0529/aurora/blob/main/wizard-hedge-magic.xml"/>
-		<file name="Plague-Master.xml" url="https://github.com/bence0529/aurora/blob/main/Pale-Master.xml">
+		<file name="Death-Warden.xml" url="https://github.com/bence0529/aurora/blob/main/Death-Warden.xml">
 	</files>
 </index>
