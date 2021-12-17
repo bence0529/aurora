@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <element name="Death Warden" type="Source" source="Core" id="ID_USER_SOURCE_DEATH_WARDEN">
 		<description>
-			<p><i>Interested in livening up your D&amp;D 5e games? How do you feel about the lore surrounding life and death? Take a look at the Grave Warden, an arcane caster interested in manipulating necromantic magic!</i></p>
-			<p>The Grave Warden is an intelligence-based caster obsessed with the dark arts. They specialize in spells and incantations that allow them to harness the very life-force that flows through all creatures. Where a life-force is not present, they are able to instill a mimicry of foul life, rising these dead creatures from their once peaceful earthen resting places to serve a greater purpose. Flavor of undeath oozes from this class: unholy appendages, undead servants and necromancy specialization. To obtain these gifts, the grave wardens forgo study in the other arcane disciplines (drastically reducing their spell list in favor of becoming more like the undead they keep in their company). The Grave Warden is a complete D&amp;D 5e class with four fully detailed archetypes, called requiems, that will give players unique options when creating and playing their characters. The archetypes are: Requiem of the Ash, Requiem of the Frigid, Requiem of the Haunt, and Requiem of the Torpor.</p>
+		Death warden
 		</description>
 		<setters>
 			<set name="abbreviation"></set>
@@ -240,7 +239,7 @@
 			<description>When you cast a necromancy cantrip that targets one creature, you can target two creatures within range and within 5ft of each other instead.</description>
 		</sheet>
 	</element>
-	<element name="Death's Whisper" type="Class Feature" source="Death Warden" id="ID_USER_GRAVE_WARDEN_DEATHS_WHISPER">
+	<element name="Death's Whisper" type="Class Feature" source="Death Warden" id="ID_USER_DEATH_WARDEN_DEATHS_WHISPER">
 		<description>
 			<html><p>Starting at 2nd level, you gain the ability to cast <i>speak with dead</i> as a ritual. Once you use this feature, you can't use it again until you finish a long rest.</p>
 			<p class="indent">Also, the undead who lurk in the dark begin to lose their mystery. You gain darkvision out to 60 feet (if you already have darkvision, its effective distance is increased by 30 feet), you become proficient with the Religion skill if you are not already and you have advantage on all Religion skill checks if they are related to the undead.</p></html>
@@ -261,7 +260,7 @@
 			<description>When you deal the killing blow to a foe using a necromancy spell, you gain a number of temporary Hit Points equal to your pale master level + your constitution modifier. You can use this feature a number of times equal to your Constitution modifier per long rest.</description>
 		</sheet>
 	</element>
-	<element name="Deathless Vigor" type="Class Feature" source="The Death Warden" id="ID_USER_GRAVE_WARDEN_DEATHLESS_VIGOR">
+	<element name="Deathless Vigor" type="Class Feature" source="The Death Warden" id="ID_USER_DEATH_WARDEN_DEATHLESS_VIGOR">
 		<description>
 			<html><p>At 6th level, your body becomes more akin to the undead you keep in your cohort. You become resistant to necrotic damage and your hit point maximum cannot be reduced.</p>
 			<p class="indent">Additionally, you are able to reroll a failed Constitution saving throw but must take the second result. You can use this feature a number of times equal to your Constitution modifier (a minimum of once). You regain expended uses when you finish a long rest.</p></html>
@@ -283,7 +282,7 @@
 			<description>+{{intelligence:modifier}} to the damage you deal with any cleric cantrip.</description>
 		</sheet>
 	</element>
-	<element name="Undead Acclimation" type="Class Feature" source="Death Warden" id="ID_USER_GRAVE_WARDEN_UNDEAD_ACCLIMATION">
+	<element name="Undead Acclimation" type="Class Feature" source="Death Warden" id="ID_USER_DEATH_WARDEN_UNDEAD_ACCLIMATION">
 		<description>
 			<html><p>By 17th level, you have spent so much time dealing with undead and the powers of animation that you gain prowess over some of their most predominant effects.</p>
 			<p class="indent">When you are hit with an attack that deals critical damage, the attack does normal damage instead. Additionally, you are immune to necrotic damage.</p></html>
@@ -295,7 +294,7 @@
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_NECROTIC" />
 		</rules>
 	</element>
-	<element name="Necromastery" type="Class Feature" source="Death Warden" id="ID_USER_GRAVE_WARDEN_NECROMASTERY">
+	<element name="Necromastery" type="Class Feature" source="Death Warden" id="ID_USER_DEATH_WARDEN_NECROMASTERY">
 		<description>
 			<html><p>At 18th level, you have gained mastery over certain necromancy spells, allowing you to cast them at will.</p>
 			<p class="indent">Choose a 1st-level Death Warden spell and a 2nd-level Death Warden spell that are in your grimoire and belong to the necromancy school of magic. You can cast those spells at their lowest level without expending a spell slot when you have them prepared. If you want to cast either spell at a higher level, you must expend a spell slot as normal.</p>
@@ -305,7 +304,7 @@
 			<description>Choose a 1st-level Death Warden spell and a 2nd-level Death Warden spell that are in your grimoire and belong to the necromancy school of magic. You can cast those spells at their lowest level without expending a spell slot when you have them prepared. If you want to cast either spell at a higher level, you must expend a spell slot as normal. By spending 8 hours in study, you can exchange one or both of the spells you chose for different spells of the same levels.</description>
 		</sheet>
 	</element>
-	<element name="Rebuke the Grave" type="Class Feature" source="Death Warden" id="ID_USER_GRAVE_WARDEN_REBUKE_THE_GRAVE">
+	<element name="Rebuke the Grave" type="Class Feature" source="Death Warden" id="ID_USER_DEATH_WARDEN_REBUKE_THE_GRAVE">
 		<description>
 			<html><p>At 20th level, when you take a single source of damage that would knock you unconscious or kill you outright, you may use this feature as a reaction to take no damage instead.</p>
 			<p class="indent">You can choose to allow an ally within 120 feet to use this ability with its reaction instead of yourself. Once you use this feature, you cannot do so again until you complete a long rest.</p></html>
